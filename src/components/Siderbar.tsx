@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import Switch from "./Sidebar/Switch";
+import Menu from "./Sidebar/Menu";
 
 const Container = styled.div`
 	width: 100%;
@@ -12,6 +14,10 @@ const NavBar = styled.div`
 	width:300px;
 	height: 100%;
 	background-color: ${({theme}) => theme.secondary};
+	transition: all 0.25s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 `
 
 const ContentContainer = styled.div`
@@ -26,7 +32,10 @@ interface Props {
 const Sidebar = ({children}: Props) => {
 	return (
 		<Container>
-			<NavBar></NavBar>
+			<Switch />
+			<NavBar>
+				<Menu />
+			</NavBar>
 			<ContentContainer>{children}</ContentContainer>
 		</Container>
 	)
