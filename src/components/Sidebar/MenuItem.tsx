@@ -23,7 +23,7 @@ const Container = styled.div<ContainerPropse>`
 		if(focus) {
 			return css`
 				scale: 1.1;
-				border-bottom: : 2px solid ${theme.textColor};
+				border-bottom: 2px solid ${theme.textColor};
 			`
 		}
 	}}
