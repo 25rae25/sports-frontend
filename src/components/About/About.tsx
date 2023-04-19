@@ -1,10 +1,11 @@
 import React from 'react';
 import Sidebar from '../Siderbar';
+import AboutDetail from './AboutDetail';
 
 const About = () => {
 	return (
 		<Sidebar>
-			<>About</>
+			<AboutDetail />
 		</Sidebar>
 	)
 }
