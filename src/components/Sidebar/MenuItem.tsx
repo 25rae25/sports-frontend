@@ -7,7 +7,7 @@ interface ContainerPropse {
 }
 
 const Container = styled.div<ContainerPropse>`
-	margin: 20px 0 20px 0;
+	margin: 15px 20px;
 	font-size: 1.5rem;
 
 	&:hover{

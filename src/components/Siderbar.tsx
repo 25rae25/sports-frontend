@@ -5,17 +5,15 @@ import Menu from "./Sidebar/Menu";
 
 const Container = styled.div`
 	width: 100%;
-	height: 100vh;
-	display: flex;
+	height: 100%;
 `;
 
 const NavBar = styled.div`
-	width:300px;
-	height: 100%;
+	width: 100%;
+	height: 14vh;
 	background-color: ${({theme}) => theme.secondary};
 	transition: all 0.25s;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	position: relative;
 `

@@ -4,10 +4,12 @@ import styled from "styled-components";
 
 const Container = styled.div`
 	ul {
-		margin: 10px;
+		display: flex;
+		margin: 25px;
 		padding: 10px;
 	}
 `
+
 
 const menuList = [
 	{menuName: 'Home', path: '/'},
