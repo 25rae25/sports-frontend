@@ -1,9 +1,8 @@
 import React from 'react';
 import { useThemeContext } from './context/themeContext';
-import { lightTheme,darkTheme } from './styles/theme';
+import { lightTheme,darkTheme } from './commons/styles/theme';
 import { ThemeProvider } from 'styled-components';
-import { GlobalStyle } from './styles/global';
-import Main from './components/Main';
+import { GlobalStyle } from './commons/styles/global';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
