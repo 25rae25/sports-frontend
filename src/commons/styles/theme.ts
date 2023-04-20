@@ -1,7 +1,7 @@
 export const lightTheme = {
 	primary: '#fff',
 	secondary: '#f8f8f8',
-	textColor: '#585280',
+	textColor: '#000',
 	header: '#585280',
 	headerNumber: '#fff',
 	activeMenu: '#585280'
