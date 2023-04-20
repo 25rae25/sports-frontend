@@ -6,7 +6,7 @@ import { GlobalStyle } from './commons/styles/global';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Sports from './components/Sports/Sports';
+import Login from './components/Login/Login';
 import Board from './components/Board/Board';
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
-          <Route path='/Sports' element={<Sports />} />
+          <Route path='/Login' element={<Login />} />
           <Route path='/Board' element={<Board />} />
         </Routes>
       </BrowserRouter>

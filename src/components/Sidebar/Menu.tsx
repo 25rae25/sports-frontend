@@ -15,7 +15,7 @@ const menuList = [
 	{menuName: 'Home', path: '/'},
 	{menuName: 'About', path: '/about'},
 	{menuName: 'Board', path: '/board'},
-	{menuName: 'Sports', path: '/sports'}
+	{menuName: 'Login', path: '/login'}
 ]
 
 const Menu = () => {

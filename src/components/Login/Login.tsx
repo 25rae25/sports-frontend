@@ -1,12 +1,12 @@
 import React from 'react';
 import Sidebar from '../Siderbar';
 
-const Sports = () => {
+const Login = () => {
 	return (
 		<Sidebar>
-			<>Sports</>
+			<>Login</>
 		</Sidebar>
 	)
 }
 
-export default Sports;
+export default Login;

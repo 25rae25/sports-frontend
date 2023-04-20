@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import AboutInfo from "./AboutInfo";
+import AboutTitle from "./AboutTitle";
 
 const Container = styled.div`
 	width: 1200px;
@@ -22,18 +23,13 @@ const Aboutinfo = styled.div`
 	flex-direction: column;
 `
 
-const Abouttitle = styled.div`
-	width: 100%;
-	height: 300px;
-	border: 1px solid green;
-`
 
 const AboutDetail = () => {
 	return(
 		<Container>
 			<AboutImg />
 			<Aboutinfo>
-				<Abouttitle>안녕하세요 조영래입니다</Abouttitle>
+				<AboutTitle />
 				<AboutInfo />
 			</Aboutinfo>
 		</Container>
