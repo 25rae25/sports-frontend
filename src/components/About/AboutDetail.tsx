@@ -5,8 +5,8 @@ import AboutTitle from "./AboutTitle";
 
 const Container = styled.div`
 	width: 1200px;
-	height: 600px;
-	margin: 100px auto 0px auto;
+	height: 500px;
+	margin: 150px auto 0px auto;
 	border:1px solid red;
 	display: flex;
 `
