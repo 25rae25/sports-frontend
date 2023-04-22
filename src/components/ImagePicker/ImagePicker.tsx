@@ -4,7 +4,7 @@ import {  AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import { images } from "../../data/Images";
 
 const Container = styled.div`
-  width: 1200px;
+  width: 1500px;
   height: 500px;
   position: fixed;
   top: 50%;
