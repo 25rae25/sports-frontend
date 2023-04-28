@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import Sidebar from "../Siderbar";
+import LoginForm from "./LoginForm";
 
 type Inputs = {
     name: string
@@ -23,13 +24,7 @@ const FormSignUp = () => {
 
     return (
         <Sidebar>
-            <form /*onSubmit={handleSubmit(onSubmit)}*/>
-                <input {...register('email')} />
-                {errors.email?.message}
-                <input {...register('password')} />
-                {errors.password?.message}
-                <input type='submit' />
-            </form>
+            <LoginForm />
         </Sidebar>
     )
 }
