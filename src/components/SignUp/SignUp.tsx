@@ -2,7 +2,7 @@ import Sidebar from "../Siderbar";
 import SignupForm from "./SignupForm";
 
 
-const Signup = () => {
+const SignUp = () => {
     return (
         <Sidebar>
            <SignupForm />
@@ -10,4 +10,4 @@ const Signup = () => {
     )
 }
 
-export default Signup;
+export default SignUp;

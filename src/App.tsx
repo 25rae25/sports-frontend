@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Login from './components/Login/Login';
 import Board from './components/Board/Board';
+import SignUp from './components/SignUp/SignUp';
 
 const App = () => {
   const { theme } = useThemeContext();
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/About' element={<About />} />
           <Route path='/Login' element={<Login />} />
           <Route path='/Board' element={<Board />} />
+          <Route path='/Signup' element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
