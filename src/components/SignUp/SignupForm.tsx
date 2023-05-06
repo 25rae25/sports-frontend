@@ -7,6 +7,23 @@ const ErrorMessage = styled.div`
 	color: red;
 	font-size: 0.8rem;
 `
+// const Label = styled.div`
+//     font-size: 1rem;
+// 	color: #fff;
+//     margin-bottom: 0.25rem;
+// `;
+
+const Input = styled.input`
+    width: 50%;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 0px;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+`;
+
 
 interface SignupFormValues {
   name: string;
@@ -33,11 +50,15 @@ const SignupForm = () => {
     },
   });
 
+//   const handleSubmit = async (values, actions) => {
+//     alert("회원가입 submit 완료");
+//   };
+
   return (
     <form onSubmit={formik.handleSubmit}>
       <div>
-        <label htmlFor="name">이름</label>
-        <input
+        <label htmlFor='name'>이름</label>
+        <Input
           type="text"
           id="name"
           name="name"
