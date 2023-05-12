@@ -8,10 +8,10 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-	primary: '#302c40',
-	secondary: '#2c2839',
+	primary: '#101936',
+	secondary: '#101936',
 	textColor: '#fff',
 	header: '#fff',
-	headerNumber: '#58280',
-	activeMenu: '#fff'
+	headerNumber: '#e0e721',
+	activeMenu: '#e0e721'
 }
