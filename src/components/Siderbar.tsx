@@ -23,8 +23,9 @@ const ContentContainer = styled.div`
 	height: 100%;
 `
 
+// type any 수정 다른걸로
 interface Props {
-	children: JSX.Element;
+	children: any;
 }
 
 const Sidebar = ({children}: Props) => {
