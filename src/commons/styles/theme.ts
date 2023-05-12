@@ -9,7 +9,7 @@ export const lightTheme = {
 
 export const darkTheme = {
 	primary: '#101936',
-	secondary: '#101936',
+	secondary: '#12162A',
 	textColor: '#fff',
 	header: '#fff',
 	headerNumber: '#e0e721',
