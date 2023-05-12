@@ -1,12 +1,12 @@
 import React from 'react';
 import Sidebar from '../Siderbar';
 // import ImagePicker from '../ImagePicker/ImagePicker';
-import HomeImage from '../../commons/image/home.jpg';
+import HomeImage from './HomeImg';
 
 const Home = () => {
 	return (
 		<Sidebar>
-			<img src={HomeImage} alt="homeimage" />
+			<HomeImage />
 		</Sidebar>
 	)
 }
