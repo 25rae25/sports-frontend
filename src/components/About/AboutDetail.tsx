@@ -11,8 +11,9 @@ const Container = styled.div`
 	display: flex;
 `
 
-const AboutImg = styled.div`
-	width: 600px;
+const AboutImg = styled.img`
+	width: 50%;
+	display: block;
 	border: 1px solid blue;
 `
 
