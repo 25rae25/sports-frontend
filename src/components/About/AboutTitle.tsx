@@ -12,7 +12,7 @@ const Abouttitle = styled.div`
 
 const AboutTitle = () => {
 	return(
-		<Abouttitle>조영래입니다</Abouttitle>
+		<Abouttitle></Abouttitle>
 	)
 }
 
