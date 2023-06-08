@@ -10,16 +10,9 @@ const Abouttitle = styled.div`
 	font-weight: bold;
 `
 
-const AboutSub = styled.div`
-	width: 100%;
-`
-
 const AboutTitle = () => {
 	return(
-		<div>
 		<Abouttitle></Abouttitle>
-		<AboutSub></AboutSub>
-		</div>
 	)
 }
 

@@ -12,7 +12,7 @@ const About = styled.div`
 const AboutInfo = () => {
 	return(
 		<Aboutwrap>
-			<About>이름 : 조영래</About>
+			<About>정식명칭 : Tottenham Hotspur Football Club</About>
 			<About>나이 : 28살</About>
 			<About>이메일 : whdudfo0124@gmail.com</About>
 			<About>git : https://github.com/25rae25</About>
