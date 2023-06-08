@@ -13,10 +13,10 @@ const AboutInfo = () => {
 	return(
 		<Aboutwrap>
 			<About>정식명칭 : Tottenham Hotspur Football Club</About>
-			<About>나이 : 28살</About>
-			<About>이메일 : whdudfo0124@gmail.com</About>
-			<About>git : https://github.com/25rae25</About>
-			<About>블로그 : https://velog.io/@niceyoungrae</About>
+			<About>창단 : 1882년 9월 5일 (140주년)</About>
+			<About>연고지 : 잉글랜드 런던 해링게이 구 (Haringey) 토트넘 (Tottenham)</About>
+			<About>소속리그 : 프리미어 리그 (Premier League)</About>
+			<About>홈구장 : 토트넘 홋스퍼 스타디움</About>
 		</Aboutwrap>
 	)
 }
