@@ -4,7 +4,6 @@ import styled from "styled-components";
 const AboutImage = styled.img`
 	width: 50%;
 	display: block;
-	border: 1px solid blue;
 `
 
 const AboutImg = () => {
