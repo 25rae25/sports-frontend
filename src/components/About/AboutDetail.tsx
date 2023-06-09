@@ -5,11 +5,12 @@ import AboutTitle from "./AboutTitle";
 import AboutImg from "./AboutImg";
 
 const Container = styled.div`
-	width: 1200px;
+	width: 80%;
 	height: 500px;
 	margin: 150px auto 0px auto;
 	border:1px solid red;
 	display: flex;
+	justify-content: center;
 `
 
 const Aboutinfo = styled.div`
