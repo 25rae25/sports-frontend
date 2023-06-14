@@ -4,6 +4,7 @@ const Aboutwrap = styled.div`
 	text-align: center;
 	padding-top: 8%;
 	font-size: 18px;
+	padding-left: 40px;
 `
 
 const About = styled.div`
