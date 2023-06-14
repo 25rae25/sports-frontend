@@ -12,20 +12,18 @@ const Container = styled.div`
 	justify-content: center;
 `
 
-const Aboutinfo = styled.div`
-	width: 600px;
-	display: flex;
-	flex-direction: column;
-`
+// const Aboutinfo = styled.div`
+// 	width: 600px;
+// 	display: flex;
+// 	flex-direction: column;
+// `
 
 
 const AboutDetail = () => {
 	return(
 		<Container>
 			<AboutImg />
-			<Aboutinfo>
 				<AboutInfo />
-			</Aboutinfo>
 		</Container>
 	)
 }

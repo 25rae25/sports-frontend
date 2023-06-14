@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const Aboutwrap = styled.div`
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 8%;
+	font-size: 18px;
 `
 
 const About = styled.div`
