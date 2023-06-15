@@ -8,11 +8,19 @@ const Container = styled.div`
 	right: 0;
 `
 
+const AddButton = styled.button`
+	border:none;
+	font-size: 15px;
+	background-color: none;
+	padding: 20px 30px;
+	cursor: pointer;
+`
+
 const Switch = () => {
 	const { toggleTheme } = useThemeContext();
 	return (
 		<Container>
-			<button onClick={toggleTheme}>{`테마 변경`}</button>
+			<AddButton onClick={toggleTheme}>{`테마 변경`}</AddButton>
 		</Container>
 	)
 }
