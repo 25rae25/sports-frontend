@@ -11,7 +11,8 @@ const Container = styled.div`
 const AddButton = styled.button`
 	border:none;
 	font-size: 15px;
-	background-color: none;
+	background: none;
+	color: #ddd;
 	padding: 20px 30px;
 	cursor: pointer;
 `
