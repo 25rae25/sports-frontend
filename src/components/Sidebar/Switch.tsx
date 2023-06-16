@@ -12,7 +12,7 @@ const AddButton = styled.button`
 	border:none;
 	font-size: 15px;
 	background: none;
-	color: #ddd;
+	color: #efefef;
 	padding: 20px 30px;
 	cursor: pointer;
 `
