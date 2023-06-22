@@ -5,7 +5,6 @@ import BoardForm from './BoardForm';
 const Board = () => {
 	return (
 		<Sidebar>
-			<>Board</>
 			<BoardForm />
 		</Sidebar>
 	)
