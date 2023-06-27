@@ -1,6 +1,16 @@
+import styled from "styled-components";
+
+const BoardWrapper = styled.img`
+	width: 50%;
+	display: block;
+`
+
+
 const BoardForm = () => {
 	return(
-		<div>BoardForm</div>
+		<BoardWrapper>
+			
+		</BoardWrapper>
 	);
 }
 
