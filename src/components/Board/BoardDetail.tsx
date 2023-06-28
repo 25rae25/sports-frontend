@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import BoardDetail from "./BoardDetail";
 
 const BoardWrapper = styled.img`
 	width: 50%;
@@ -7,12 +6,12 @@ const BoardWrapper = styled.img`
 `
 
 
-const BoardForm = () => {
+const BoardDetail = () => {
 	return(
 		<BoardWrapper>
-			<BoardDetail />
+			
 		</BoardWrapper>
 	);
 }
 
-export default BoardForm;
+export default BoardDetail;
